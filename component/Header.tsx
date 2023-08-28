@@ -44,7 +44,7 @@ export default function Header() {
         {/* 검색 Input + 버튼 */}
         <Flex
           p={"15px"}
-          w={"30%"}
+          w={"40%"}
           alignItems={"center"}
           justifyContent={"center"}
         >
@@ -78,6 +78,7 @@ export default function Header() {
           borderColor={"blackAlpha.300"}
           p={"15px"}
           gap={"8px"}
+          flexWrap={"wrap"}
         >
           <Box>
             <strong>POPULAR</strong>
